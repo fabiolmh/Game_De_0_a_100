@@ -138,3 +138,9 @@ button:disabled {
         padding: 1rem
     }
 }
+.container__imagem-pessoa {
+    max-width: 550px;  /* controla a largura máxima da imagem */
+    height: auto;      /* mantém a proporção */
+    object-fit: contain; /* impede distorções */
+    margin-right: 2rem;  /* opcional, afasta da borda direita */
+}
